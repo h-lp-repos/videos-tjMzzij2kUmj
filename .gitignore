@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Binaries
+*.npz
+*.faiss
+
+# Misc
+.DS_Store
+*.log
