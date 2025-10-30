@@ -1,0 +1,7 @@
+{
+  "batch_size": 32,
+  "p50_ms": 120.5,
+  "p95_ms": 200.3,
+  "wall_time_s": 1.23,
+  "peak_memory_mb": 150.12
+}
