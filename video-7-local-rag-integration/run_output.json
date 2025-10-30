@@ -1,0 +1,5 @@
+[
+  {"query": "example query 1", "retrieved_doc_ids": [1, 2, 3], "generated_answer": "Answer for query: example query 1 with docs [1, 2, 3]"},
+  {"query": "example query 2", "retrieved_doc_ids": [2, 3, 4], "generated_answer": "Answer for query: example query 2 with docs [2, 3, 4]"},
+  {"query": "example query 3", "retrieved_doc_ids": [3, 4, 5], "generated_answer": "Answer for query: example query 3 with docs [3, 4, 5]"}
+]
