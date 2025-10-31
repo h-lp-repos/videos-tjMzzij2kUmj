@@ -23,6 +23,10 @@ def main():
     index.add(embeddings)
     print(f"Built index with {index.ntotal} vectors")
 
+    # Save FAISS index to disk for later use
+    faiss.write_index(index, "index.faiss")
+    print("Saved FAISS index to index.faiss")
+
     queries = embeddings[:3]
     faiss.normalize_L2(queries)
     D, I = index.search(queries, args.k)
