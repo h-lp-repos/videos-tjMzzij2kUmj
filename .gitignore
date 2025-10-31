@@ -15,3 +15,6 @@ venv/
 # Misc
 .DS_Store
 *.log
+# Exceptions for example assets
+!video-3-load-sentence-transformers-notebook/embeddings.npz
+!video-5-build-faiss-index-knn-retrieval/index.faiss
