@@ -11,7 +11,7 @@ Compute top-5 overlap between local and cloud embeddings for a set of queries an
    ```
 2. Run the script:
    ```bash
-   python compare_embeddings.py --local ../video-5-build-faiss-index-knn-retrieval/knn_results.json \  # or index.faiss
+   python compare_embeddings.py --local_index ../video-5-build-faiss-index-knn-retrieval/index.faiss \
        --cloud cloud_baseline.json --queries queries.json --k 5 --out results.json
    ```
 3. Review results:

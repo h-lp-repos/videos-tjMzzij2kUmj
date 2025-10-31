@@ -12,7 +12,7 @@ Integrate local FAISS-based retrieval into a RAG demo, replacing cloud embedding
 2. Replace cloud embedding calls by running local inference + FAISS search.
 3. Run the end-to-end script:
    ```bash
-   python retrieval_integration.py --queries queries.json --index ../video-5-build-faiss-index-knn-retrieval/knn_results.json --out run_output.json
+   python retrieval_integration.py --queries queries.json --index ../video-5-build-faiss-index-knn-retrieval/index.faiss --out run_output.json
    ```
 4. Review outputs:
    ```bash
