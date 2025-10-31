@@ -14,6 +14,16 @@ This repository contains 7 practical video demos for Lesson 4, covering environm
 
 ## Setup
 
-Each video directory includes a `README.md` with detailed reproducible steps, necessary scripts/notebooks, and sample assets. Follow each video's instructions to run the demos.
+1. Install Python dependencies for each video folder, for example:
+   ```bash
+   cd video-1-setup-local-python-env
+   pip install -r requirements.txt
+   ```
+2. For videos using Docker, ensure you have Docker and optionally NVIDIA Container Toolkit installed.
+3. Copy the example environment file and set any required variables:
+   ```bash
+   cp .env.example .env
+   ```
+4. Follow each video's `README.md` for detailed reproducible steps.
 
 ---
