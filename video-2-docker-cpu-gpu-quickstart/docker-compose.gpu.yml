@@ -2,7 +2,11 @@ version: '3.8'
 services:
   app:
     build: .
-    runtime: nvidia
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]
     environment:
       - MODEL_NAME=sentence-transformers/all-MiniLM-L6-v2
     ports:

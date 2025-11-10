@@ -1,5 +1,5 @@
 [
-  {"query": "example query 1"},
-  {"query": "example query 2"},
-  {"query": "example query 3"}
+  {"query": "first document"},
+  {"query": "first text example"},
+  {"query": "second example"}
 ]
