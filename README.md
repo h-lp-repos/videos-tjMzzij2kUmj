@@ -27,3 +27,10 @@ This repository contains 7 practical video demos for Lesson 4, covering environm
 4. Follow each video's `README.md` for detailed reproducible steps.
 
 ---
+
+## Changelog
+
+### v1.1.0 - 2023-08-29
+
+- Fixed syntax error in `video-3-load-sentence-transformers-notebook/local_embedding_inference.ipynb` and added missing inference steps.
+- Verified no syntax errors in Python scripts across the repository.
